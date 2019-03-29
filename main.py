@@ -30,7 +30,8 @@ def index():
       <body>
         <form action="/" method="post">
           <label for="rot">Rotate by:</label>
-          <input id="rot" type="text" name="rot" value="0"/>
+          <input id="rot" type="text" name="rot" pattern="[0-9]"
+          title="Digits only!" value="0"/>
          <textarea type="text" name="text">{0}</textarea>
          <input type="submit" name="submit" value="Encrypt Message"/>
       </body>
