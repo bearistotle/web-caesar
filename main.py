@@ -20,7 +20,7 @@ def index():
               font:16px sans-serif;
               border-radius: 10px;
           }
-          textarea{
+          .textarea{
               margin: 10px;
               width: 540px;
               height: 120px;
@@ -32,7 +32,7 @@ def index():
           <label for="rot">Rotate by:
           <input id="rot" type="text" name="rot" value="0"/>
           </label>
-         <input type="textarea" name="text"/>
+         <input type="textarea" class="textarea" name="text"/>
          <input type="submit" name="submit" value="Encrypt Message"/>
       </body>
     </html>
